@@ -1,6 +1,6 @@
 # Anasayfa
 
-Burada tripkolic oteline ait etkinlikler görüntülenir, ilgili kartta kalp iconuna tıklanırsa eğer o kartı favorilere ekler, "Book Now" butonuna tıklanırsa da sepete ekle.
+Burada tripkolic oteline ait etkinlikler görüntülenir, ilgili kartta kalp iconuna tıklanırsa eğer o kartı favorilere, "Book Now" butonuna tıklanırsa da sepete ekler.
 
 # Favroiler
 
