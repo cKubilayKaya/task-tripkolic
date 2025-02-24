@@ -2,6 +2,7 @@ import { setSelectedCategory } from "@/store/slices/filterSlice";
 import React from "react";
 import { IoCloseSharp } from "react-icons/io5";
 import { useDispatch } from "react-redux";
+import OutsideClickHandler from "react-outside-click-handler";
 
 export default function FilterModalHeader({ categoryList, showCategoryList, handleCloseModal, setShowCategoryList }) {
   const dispatch = useDispatch();
@@ -14,18 +15,30 @@ export default function FilterModalHeader({ categoryList, showCategoryList, hand
   return (
     <div className="modal-header d-flex align-items-center justify-content-between">
       <div className="category-list">
-        <button className="selected-category" onClick={() => setShowCategoryList(!showCategoryList)}>
-          {categoryList.selectedCategory}
-        </button>
-        {showCategoryList && (
-          <div className="categories">
-            {categoryList?.categories?.map((item) => (
-              <button key={item} onClick={() => changeCategoryList(item)}>
-                {item}
-              </button>
-            ))}
-          </div>
-        )}
+        <OutsideClickHandler
+          onOutsideClick={() => {
+            setShowCategoryList(false);
+          }}
+        >
+          <button
+            className="selected-category"
+            onClick={(e) => {
+              e.stopPropagation();
+              setShowCategoryList(!showCategoryList);
+            }}
+          >
+            {categoryList.selectedCategory}
+          </button>
+          {showCategoryList && (
+            <div className="categories" onClick={(e) => e.stopPropagation()}>
+              {categoryList?.categories?.map((item) => (
+                <button key={item} onClick={() => changeCategoryList(item)}>
+                  {item}
+                </button>
+              ))}
+            </div>
+          )}
+        </OutsideClickHandler>
       </div>
       <h4>Filter</h4>
       <button onClick={handleCloseModal} className="modal-header-close-button">

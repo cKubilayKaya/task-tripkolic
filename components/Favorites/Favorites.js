@@ -9,24 +9,15 @@ export default function Favorites({ cardHeaderTitle, cardHeaderIsSearch }) {
   const [filteredCards, setFilteredCards] = useState();
   const [showNoMatch, setShowNoMatch] = useState(false);
 
-  const searchData = (query) => {
-    if (query?.length > 1 && filteredCards?.length < 1) {
-      setShowNoMatch(true);
-    } else {
-      setShowNoMatch(false);
-    }
-    if (query?.length < 1) {
-      setFilteredCards([]);
-    } else {
-      const lowercasedQuery = query.toLowerCase();
-      const filtered = favorites.filter((card) => card.title.toLowerCase().includes(lowercasedQuery) || card.location.toLowerCase().includes(lowercasedQuery));
-      setFilteredCards(filtered);
-    }
-  };
-
   return (
     <div className="container cards favorites">
-      <CardHeader cardHeaderTitle={cardHeaderTitle} cardHeaderIsSearch={cardHeaderIsSearch} searchData={searchData} />
+      <CardHeader
+        cardHeaderTitle={cardHeaderTitle}
+        cardHeaderIsSearch={cardHeaderIsSearch}
+        setFilteredCards={setFilteredCards}
+        setShowNoMatch={setShowNoMatch}
+        data={favorites}
+      />
       <div className="cards-wrapper favorites-wrapper">
         {showNoMatch ? (
           <p className="no-favorite">No data matching this filter was found.</p>

@@ -23,7 +23,7 @@ export default function FilterModal() {
       <button onClick={handleOpenModal}>
         <HiMenuAlt2 size={24} />
       </button>
-      <ReactModal isOpen={showModal} contentLabel="Minimal Modal Example">
+      <ReactModal isOpen={showModal} onRequestClose={handleCloseModal} shouldCloseOnOverlayClick={true} contentLabel="Minimal Modal Example">
         <div className="modal-wrapper">
           <FilterModalHeader
             setShowModal={setShowModal}
