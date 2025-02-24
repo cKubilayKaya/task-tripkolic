@@ -1,3 +1,5 @@
+# [Anasayfa](https://task-tripkolic.vercel.app/)
+
 # Anasayfa
 
 Burada tripkolic oteline ait etkinlikler görüntülenir, ilgili kartta kalp iconuna tıklanırsa eğer o kartı favorilere, "Book Now" butonuna tıklanırsa da sepete ekler.
