@@ -5,7 +5,7 @@ export default function PageHead({ title }) {
   return (
     <Head>
       <title>{title}</title>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/fav.ico" />
     </Head>
   );
 }
