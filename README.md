@@ -2,7 +2,7 @@
 
 Ansayfada tripkolic oteline ait etkinlikler görüntülenir, ilgili karttaki kalp iconuna tıklanırsa eğer o kartı favorilere, "Book Now" butonuna tıklanırsa da sepete ekler. Redux paketini kullanarak sayfalar arasında dinamik bir veri alışverişi sağlanmış oldu.
 
-# Favroiler
+# Favoriler
 
 /favorites sayfasından favorilere eklenen etkinliklere bakılabilir. Buradaki etkinlikler yine kalp iconuna tıklanarak favorilerden çıkarılabilir. Arama kutusundan favoriler arasında arama yapılabilir.
 
