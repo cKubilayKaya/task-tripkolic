@@ -1,4 +1,4 @@
-# [Anasayfa](https://task-tripkolic.vercel.app/)
+# [Vercel Link](https://task-tripkolic.vercel.app/)
 
 # Anasayfa
 
