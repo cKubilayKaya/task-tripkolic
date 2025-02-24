@@ -43,7 +43,7 @@ export default function Card({ card }) {
           <p className="new-price">THB {card?.price}</p>
         </div>
         <div className="info-bottom d-flex align-items-center justify-content-between">
-          <Link href={`/${card?.id}`} className="info-bottom-link">
+          <Link href={`/${card?.slug}`} className="info-bottom-link">
             <span>Details</span>
             <IoIosArrowForward />
           </Link>

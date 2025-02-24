@@ -2,6 +2,7 @@ const cards = [
   {
     id: 1,
     title: "Phi phi, khai islands tour with speed boat full day",
+    slug: "phi-phi-khai-islands-tour-with-speed-boat-full-day",
     imageSrc:
       "https://www.travelandleisure.com/thmb/nDDNqO2EctQhiIfZrxeXTF47zhE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-koh-phi-phi-PLACESTHAILAND1023-09b9d347b3cd4844b4ae19e4e06a9a6d.jpg",
     discount: "30",
@@ -23,6 +24,7 @@ const cards = [
   {
     id: 2,
     title: "Bangkok City and Temples Tour",
+    slug: "bangkok-city-and-temples-tour",
     imageSrc:
       "https://www.travelandleisure.com/thmb/nDDNqO2EctQhiIfZrxeXTF47zhE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-koh-phi-phi-PLACESTHAILAND1023-09b9d347b3cd4844b4ae19e4e06a9a6d.jpg",
     discount: "25",
@@ -44,6 +46,7 @@ const cards = [
   {
     id: 3,
     title: "Chiang Mai Elephant Sanctuary Visit",
+    slug: "chiang-mai-elephant-sanctuary-visit",
     imageSrc:
       "https://www.travelandleisure.com/thmb/nDDNqO2EctQhiIfZrxeXTF47zhE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-koh-phi-phi-PLACESTHAILAND1023-09b9d347b3cd4844b4ae19e4e06a9a6d.jpg",
     discount: "20",
@@ -65,6 +68,7 @@ const cards = [
   {
     id: 4,
     title: "Phuket Island Hopping Adventure",
+    slug: "phuket-island-hopping-adventure",
     imageSrc:
       "https://www.travelandleisure.com/thmb/nDDNqO2EctQhiIfZrxeXTF47zhE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-koh-phi-phi-PLACESTHAILAND1023-09b9d347b3cd4844b4ae19e4e06a9a6d.jpg",
     discount: "15",
@@ -86,6 +90,7 @@ const cards = [
   {
     id: 5,
     title: "Ayutthaya Historical Park Tour",
+    slug: "ayutthaya-historical-park-tour",
     imageSrc:
       "https://www.travelandleisure.com/thmb/nDDNqO2EctQhiIfZrxeXTF47zhE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-koh-phi-phi-PLACESTHAILAND1023-09b9d347b3cd4844b4ae19e4e06a9a6d.jpg",
     discount: "10",
@@ -107,6 +112,7 @@ const cards = [
   {
     id: 6,
     title: "Krabi 4 Islands Tour",
+    slug: "krabi-4-islands-tour",
     imageSrc:
       "https://www.travelandleisure.com/thmb/nDDNqO2EctQhiIfZrxeXTF47zhE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-koh-phi-phi-PLACESTHAILAND1023-09b9d347b3cd4844b4ae19e4e06a9a6d.jpg",
     discount: "35",
@@ -128,6 +134,7 @@ const cards = [
   {
     id: 7,
     title: "Pattaya Coral Island Tour",
+    slug: "pattaya-coral-island-tour",
     imageSrc:
       "https://www.travelandleisure.com/thmb/nDDNqO2EctQhiIfZrxeXTF47zhE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-koh-phi-phi-PLACESTHAILAND1023-09b9d347b3cd4844b4ae19e4e06a9a6d.jpg",
     discount: "40",

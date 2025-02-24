@@ -6,6 +6,7 @@ const filteredCards = createSlice({
     {
       id: 1,
       title: "Phi phi, khai islands tour with speed boat full day",
+      slug: "phi-phi-khai-islands-tour-with-speed-boat-full-day",
       imageSrc:
         "https://www.travelandleisure.com/thmb/nDDNqO2EctQhiIfZrxeXTF47zhE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-koh-phi-phi-PLACESTHAILAND1023-09b9d347b3cd4844b4ae19e4e06a9a6d.jpg",
       discount: "30",
@@ -27,6 +28,7 @@ const filteredCards = createSlice({
     {
       id: 2,
       title: "Bangkok City and Temples Tour",
+      slug: "bangkok-city-and-temples-tour",
       imageSrc:
         "https://www.travelandleisure.com/thmb/nDDNqO2EctQhiIfZrxeXTF47zhE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-koh-phi-phi-PLACESTHAILAND1023-09b9d347b3cd4844b4ae19e4e06a9a6d.jpg",
       discount: "25",
@@ -48,6 +50,7 @@ const filteredCards = createSlice({
     {
       id: 7,
       title: "Pattaya Coral Island Tour",
+      slug: "pattaya-coral-island-tour",
       imageSrc:
         "https://www.travelandleisure.com/thmb/nDDNqO2EctQhiIfZrxeXTF47zhE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-koh-phi-phi-PLACESTHAILAND1023-09b9d347b3cd4844b4ae19e4e06a9a6d.jpg",
       discount: "40",

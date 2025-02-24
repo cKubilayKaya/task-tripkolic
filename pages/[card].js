@@ -15,14 +15,16 @@ import { FaCarAlt } from "react-icons/fa";
 import { FaRegNewspaper } from "react-icons/fa6";
 import { FaClock } from "react-icons/fa6";
 import { RiGroup3Fill } from "react-icons/ri";
+import PageHead from "@/components/PageHead";
 
 export default function CardDetail() {
   const router = useRouter();
   const { card } = router.query;
-  const cardDetail = data?.find((i) => parseInt(i?.id) === parseInt(card));
+  const cardDetail = data?.find((i) => i?.slug === card);
 
   return (
     <div className="card-detail container">
+      <PageHead title={`${cardDetail?.title} | Tripkolic`} />
       <div className="card-detail-header d-flex justify-content-between">
         <div className="card-detail-title">
           <h3>{cardDetail?.title}</h3>
